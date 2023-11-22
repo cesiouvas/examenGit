@@ -5,9 +5,9 @@ Podemos poner un texto en ***negrita***, otro en _cursiva_ y un tercero en ***_n
 
 
 También podemos hacerlo en una lista de puntos:
-* negrita
+* ***negrita***
 * _cursiva_
-* _negrita y cursiva_
+* ***_negrita y cursiva_***
 
 ## Listas (0.4 ptos)
 Además de las listas con puntos tenemos las listas numeradas
@@ -18,14 +18,14 @@ Además de las listas con puntos tenemos las listas numeradas
 ### Listas multinivel (es un título de tercer nivel)
 También podemos hacer listas multinivel
 1. Primer paso
-1. Item 1.1
-2. Item 1.2
+    1. Item 1.1
+    2. Item 1.2
         * Incluso combinando con
             * una lista de puntos multinivel
                 * dentro del punto 1.2
 2. Segundo paso
-1. Item 2.1
-2. Item 2.2
+    1. Item 2.1
+    2. Item 2.2
 
 # Segunda parte del examen de DAW
 ## Enlaces e imágenes (0.2 ptos)
@@ -49,7 +49,7 @@ console.log(linea.reverse().join(' '));
 
 Y si ponemos el lenguaje (_javascript_) a continuación de la primera marca de bloque de código, se resalta en el formato de ese lenguaje!!
 ```
-javascript
+(javascript)
 var linea = readline();
 linea = linea.split(' ');
 console.log(linea.reverse().join(' '));
