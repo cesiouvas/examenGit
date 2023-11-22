@@ -1,13 +1,13 @@
 # Primera parte del examen de DAW
 ## Formatear correctamente los títulos vale 0.2 ptos
 ## Formato (0.4 ptos)
-Podemos poner un texto en ***negrita***, otro en _cursiva_ y un tercero en ***_negrita y cursiva_***
+Podemos poner un texto en **negrita**, otro en _cursiva_ y un tercero en **_negrita y cursiva_**
 
 
 También podemos hacerlo en una lista de puntos:
-* ***negrita***
+* **negrita**
 * _cursiva_
-* ***_negrita y cursiva_***
+* **_negrita y cursiva_**
 
 ## Listas (0.4 ptos)
 Además de las listas con puntos tenemos las listas numeradas
@@ -47,7 +47,8 @@ linea = linea.split(' ');
 console.log(linea.reverse().join(' '));
 ```
 
-*** Y si ponemos el lenguaje (_javascript_) a continuación de la primera marca de bloque de código, se resalta en el formato de ese lenguaje!! ***
+**Y si ponemos el lenguaje (_javascript_) a continuación de la primera marca de bloque de código, se resalta en el formato de ese lenguaje!!**
+
 ```(javascript)
 var linea = readline();
 linea = linea.split(' ');
