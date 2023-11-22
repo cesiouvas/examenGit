@@ -48,8 +48,7 @@ console.log(linea.reverse().join(' '));
 ```
 
 Y si ponemos el lenguaje (_javascript_) a continuación de la primera marca de bloque de código, se resalta en el formato de ese lenguaje!!
-```
-(javascript)
+```(javascript)
 var linea = readline();
 linea = linea.split(' ');
 console.log(linea.reverse().join(' '));
